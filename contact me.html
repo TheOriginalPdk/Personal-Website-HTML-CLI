@@ -11,20 +11,32 @@
   <li>+64-777-323-456</li>
   <li>Address - One Pineapple Park, Cupertino, Califonia</li>
 </ul>
-<form class="" action="index.html" method="post">
+<hr>
+<form action="mailto:redijow864@agrolivana.com" method="post" enctype="text/plain">
+  <!-- what mailto does is that when you click submit your default
+  mail client will open and puts in the email address after the colon
+  and method:post means what the user types in
+   to the input fields into the email client  -->
+   <!-- ecoding type text/plain is so that text in the form are encoded in plain text -->
   <label>Your Name:</label>
-  <input type="text" name="" value=""><br>
-  <input type="color" name="" value=""><br>
-  <input type="submit" name=""><br>
+  <input type="text" name="yourName" value=""><br><br>
+  <label>Your Email:</label>
+  <input type="email" name="yourEmail" value=""><br><br>
+  <!-- type:email ensures that what you type resembles an email-->
+  <input type="color" name="" value=""><br><br>
   <label>Do you want to sign up to the email list</label>
-  <input type="checkbox" name="" value=""><br>
+  <input type="checkbox" name="" value=""><br><br>
   <label>Password:</label>
-  <input type="password" name="" value=""><br>
+  <input type="password" name="" value=""><br><br>
   <!-- password is not needed here I just put it so this website is like an interactive notebook -->
-  <input type="radio" name="" value=""><br>
-  <input type="file" name="" value=""><br>
-  <input type="date" name="" value=""><br>
-  <input type="range" name="" value=""><br>
+  <input type="radio" name="" value=""><br><br>
+  <input type="file" name="" value=""><br><br>
+  <input type="date" name="" value=""><br><br>
+  <input type="range" name="" value=""><br><br>
+  <label>Your message</label><br>
+  <!-- This is technically not an input. This is a text box found on websites when you have to provide feedback or enter something in detail -->
+  <textarea name="yourMessage" rows="8" cols="80"></textarea>
+  <input type="submit" name=""><br><br>
 </form>
   </body>
 </html>
